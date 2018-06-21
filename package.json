@@ -1,0 +1,20 @@
+{
+  "name": "routing",
+  "version": "1.0.0",
+  "description": "Routing with Express(web app that returns temperature by Zip Code)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "npm test"
+  },
+  "author": "AmyScripts",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "forecastio": "^1.0.2",
+    "morgan": "^1.9.0",
+    "zippity-do-dah": "0.0.3"
+  }
+}
